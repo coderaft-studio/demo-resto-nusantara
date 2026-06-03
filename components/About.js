@@ -34,7 +34,7 @@ export default function About() {
             Tentang Kami
           </p>
           <h2 className="text-4xl font-bold text-stone-900 mb-6 leading-tight">
-            Lebih dari Sekadar <span className="text-amber-600">Makanan test</span>
+            Lebih dari Sekadar <span className="text-amber-600">Makanan</span>
           </h2>
           <p className="text-stone-600 text-lg leading-relaxed mb-6">
             Nusantara Kitchen lahir dari kecintaan mendalam terhadap kekayaan
