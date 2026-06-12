@@ -8,7 +8,7 @@ const items = [
     desc: "Nasi goreng dengan bumbu rempah pilihan, telur mata sapi, dan kerupuk",
     price: "35.000",
     cat: "Nasi & Mie",
-    img: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&q=80",
+    img: "/images/menu1.jpg",
     badge: "Best Seller",
   },
   {
@@ -16,7 +16,7 @@ const items = [
     desc: "Kuah bening gurih dengan ayam suwir, lontong, dan tauge segar",
     price: "28.000",
     cat: "Sup & Soto",
-    img: "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=400&q=80",
+    img: "/images/menu2.webp",
     badge: "Favorit",
   },
   {
@@ -24,7 +24,7 @@ const items = [
     desc: "Rendang sapi empuk dimasak 4 jam dengan 17 rempah Minang asli",
     price: "55.000",
     cat: "Lauk",
-    img: "https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=400&q=80",
+    img: "/images/rendang.jpg",
     badge: "Premium",
   },
   {
@@ -32,7 +32,7 @@ const items = [
     desc: "Mie kenyal dengan topping ayam kecap, pangsit goreng, dan bakso",
     price: "30.000",
     cat: "Nasi & Mie",
-    img: "https://images.unsplash.com/photo-1626804475297-41608ea09aeb?w=400&q=80",
+    img: "/images/menu4.jpg",
     badge: null,
   },
   {
@@ -40,7 +40,7 @@ const items = [
     desc: "Sayuran segar dengan bumbu kacang khas Jakarta dan kerupuk udang",
     price: "25.000",
     cat: "Lauk",
-    img: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&q=80",
+    img: "/images/menu5.jpg",
     badge: null,
   },
   {
@@ -48,7 +48,7 @@ const items = [
     desc: "Teh pilihan diseduh dingin dengan gula aren asli",
     price: "12.000",
     cat: "Minuman",
-    img: "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400&q=80",
+    img: "/images/menu6.jpg",
     badge: null,
   },
 ];
@@ -64,7 +64,7 @@ export default function Menu() {
     <section id="menu" className="py-24 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
-        <div className="text-center mb-14">
+        <div className="reveal from-bottom text-center mb-14">
           <p className="text-amber-600 font-semibold tracking-widest uppercase text-sm mb-3">
             Pilihan Terbaik
           </p>
@@ -81,7 +81,7 @@ export default function Menu() {
           {items.map((item) => (
             <div
               key={item.name}
-              className="group rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow border border-stone-100"
+              className="reveal from-bottom group rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow border border-stone-100"
             >
               {/* Image */}
               <div className="relative h-52 overflow-hidden">

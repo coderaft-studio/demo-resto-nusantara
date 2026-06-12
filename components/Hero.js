@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background image */}
       <Image
-        src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1600&q=80"
+        src="/images/hero.jpg"
         alt="Suasana restoran Nusantara Kitchen"
         fill
         priority

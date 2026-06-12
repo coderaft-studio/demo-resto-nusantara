@@ -36,7 +36,7 @@ export default function Features() {
     <section className="py-24 bg-stone-900 text-white">
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
-        <div className="text-center mb-14">
+        <div className="reveal from-bottom text-center mb-14">
           <p className="text-amber-400 font-semibold tracking-widest uppercase text-sm mb-3">
             Kenapa Kami?
           </p>

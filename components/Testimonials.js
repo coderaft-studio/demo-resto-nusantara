@@ -30,7 +30,7 @@ export default function Testimonials() {
     <section className="py-24 bg-amber-50">
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
-        <div className="text-center mb-14">
+        <div className="reveal from-bottom text-center mb-14">
           <p className="text-amber-600 font-semibold tracking-widest uppercase text-sm mb-3">
             Kata Mereka
           </p>
@@ -49,7 +49,7 @@ export default function Testimonials() {
           {reviews.map((r) => (
             <div
               key={r.name}
-              className="bg-white rounded-2xl p-7 shadow-sm hover:shadow-md transition-shadow"
+              className="reveal from-bottom bg-white rounded-2xl p-7 shadow-sm hover:shadow-md transition-shadow"
             >
               {/* Stars */}
               <div className="text-amber-400 text-lg mb-4">{"★".repeat(r.rating)}</div>

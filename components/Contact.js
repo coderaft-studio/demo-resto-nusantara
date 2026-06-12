@@ -83,7 +83,7 @@ export default function Contact() {
               </button>
             </div>
           ) : (
-            <form onSubmit={submit} className="space-y-4">
+            <form className="reveal from-right" onSubmit={submit} className="space-y-4">
               <h3 className="text-xl font-bold text-stone-800 mb-6">
                 Form Reservasi
               </h3>

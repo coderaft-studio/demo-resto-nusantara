@@ -1,3 +1,4 @@
+import RevealInit from "@/components/RevealInit";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
@@ -11,6 +12,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <main>
+      <RevealInit />
       <Navbar />
       <Hero />
       <About />
